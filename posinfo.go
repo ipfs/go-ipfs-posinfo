@@ -13,6 +13,7 @@ type PosInfo struct {
 	Offset   uint64
 	FullPath string
 	Stat     os.FileInfo // can be nil
+	IsURL    bool
 }
 
 // FilestoreNode is an ipld.Node which arries PosInfo with it

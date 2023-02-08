@@ -1,6 +1,6 @@
 module github.com/ipfs/go-ipfs-posinfo
 
-go 1.18
+go 1.19
 
 require github.com/ipfs/go-ipld-format v0.0.2
 

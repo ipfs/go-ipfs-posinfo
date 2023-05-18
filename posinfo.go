@@ -9,6 +9,8 @@ import (
 
 // PosInfo stores information about the file offset, its path and
 // stat.
+//
+// Deprecated: use github.com/ipfs/boxo/filestore/posinfo.PosInfo
 type PosInfo struct {
 	Offset   uint64
 	FullPath string
@@ -17,6 +19,8 @@ type PosInfo struct {
 
 // FilestoreNode is an ipld.Node which arries PosInfo with it
 // allowing to map it directly to a filesystem object.
+//
+// Deprecated: use github.com/ipfs/boxo/filestore/posinfo.FilestoreNode
 type FilestoreNode struct {
 	ipld.Node
 	PosInfo *PosInfo

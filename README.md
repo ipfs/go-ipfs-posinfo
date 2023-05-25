@@ -20,7 +20,6 @@
 
 - [Install](#install)
 - [Usage](#usage)
-- [Contribute](#contribute)
 - [License](#license)
 
 ## Install
@@ -32,13 +31,6 @@ go get github.com/ipfs/go-ipfs-posinfo
 ## Usage
 
 See the [GoDoc documentation](https://godoc.org/github.com/ipfs/go-ipfs-posinfo)
-
-
-## Contribute
-
-PRs accepted.
-
-Small note: If editing the README, please conform to the [standard-readme](https://github.com/RichardLitt/standard-readme) specification.
 
 ## License
 
